@@ -66,7 +66,7 @@ public final class metro_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<body>\r\n");
       out.write("<div class =\"master\">\r\n");
       out.write("    <div class=\"pan pan1\" onclick=\"window.open('http://maven.lab.tclclouds.com/nexus/#welcome');\">MAVEN库</div>\r\n");
-      out.write("    <div class=\"pan pan2\"  onclick=\"window.open('http://maven.lab.tclclouds.com/nexus/#welcome');\">百度</div>\r\n");
+      out.write("    <div class=\"pan pan2\"  onclick=\"window.open('http://121.40.71.149:7990');\">GIT</div>\r\n");
       out.write("    <div class=\"pan pan3\">新浪</div>\r\n");
       out.write("    <div class=\"pan pan4\">阿里</div>\r\n");
       out.write("    <div class=\"pan pan5\">腾讯</div>\r\n");

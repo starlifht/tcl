@@ -95,7 +95,7 @@
       <file leaf-file-name="metro.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/metro.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.76216215" vertical-offset="413" max-vertical-offset="968">
+            <state line="32" column="77" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.5243243" vertical-offset="413" max-vertical-offset="968">
               <folding />
             </state>
           </provider>
@@ -573,16 +573,16 @@
       <changelist id="f05d3a1f-3bd7-4364-a140-19c87d943a11" name="Default" comment="" />
       <created>1407207092778</created>
       <updated>1407207092778</updated>
-      <workItem from="1407207094023" duration="15276000" />
+      <workItem from="1407207094023" duration="16114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15276000" />
+    <option name="totallyTimeSpent" value="16114000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="1" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -597,7 +597,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -674,7 +674,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/metro.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.76216215" vertical-offset="413" max-vertical-offset="968">
+        <state line="32" column="77" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.5243243" vertical-offset="413" max-vertical-offset="968">
           <folding />
         </state>
       </provider>
