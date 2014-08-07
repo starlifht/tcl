@@ -17,7 +17,26 @@
             <artifactId>spring-core</artifactId>
             <version>${spring.version}</version>
         </dependency>
+        <!-- Includes the Sauce JUnit helper libraries -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>LATEST</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>1.2.1</version>
+        </dependency>
 
+        <!-- Includes the Sauce JUnit helper libraries -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
@@ -84,6 +103,7 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>8.1.5.v20120716</version>
                 <configuration>
+
                     <stopPort>9966</stopPort>
                     <stopKey>foo</stopKey>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
@@ -93,10 +113,19 @@
                 </configuration>
             </plugin>
             <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>tomcat-maven-plugin</artifactId>
+                        <configuration>
+                            <url>http://112.124.124.190:8080/manager/text</url>
+                            <server>myserver</server>
+                            <path>/tcl</path>
+                        </configuration>
+            </plugin>
+            <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <includes>
-                        <include>**/*Tests.java</include>
+                        <include>**/*TTests.java</include>
                     </includes>
                 </configuration>
 
