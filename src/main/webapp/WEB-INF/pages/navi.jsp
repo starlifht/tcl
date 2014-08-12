@@ -8,10 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>MIE导航</title>
+    <title>MIE内部导航</title>
     <style>
         body {
-            font-family: "微软雅黑";
+            font-family: "微软雅黑",sans-serif;
             background: black
         }
 
