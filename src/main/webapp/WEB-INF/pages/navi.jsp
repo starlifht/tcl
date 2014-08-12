@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>导航</title>
+    <title>MIE导航</title>
     <style>
         body {
             font-family: "微软雅黑";
@@ -19,7 +19,7 @@
         /*a:hover{text-decoration:a  }*/
         .logo {
             color: grey;
-            font-size: 80px;
+            font-size: 60px;
             font-weight: bold;
         }
 
@@ -56,24 +56,29 @@
         .pan2 {
             background: dodgerblue;
             float: left;
-            width: 560px
+            width: 150px
         }
 
         .pan3 {
             background: orange;
-            width: 300px;
+            width: 405px;
             float: left
         }
 
         .pan4 {
             background: gold;
-            width: 200px;
+            width: 205px;
             float: left
         }
 
         .pan5 {
             background: hotpink;
             width: 385px;
+            float: left;
+        }
+        .pan6 {
+            background: greenyellow;
+            width: 295px;
             float: left;
         }
     </style>
@@ -88,8 +93,9 @@
     <div class="pan pan1" onclick="window.open('http://maven.lab.tclclouds.com/nexus/#welcome');">MAVEN库</div>
     <div class="pan pan2" onclick="window.open('http://121.40.71.149:7990');">GIT</div>
     <div class="pan pan3" onclick="window.open('http://121.40.71.149:8090/dashboard.action');">WIKI文档</div>
-    <div class="pan pan4" onclick="window.open('http://jira.lab.tclclouds.com/secure/Dashboard.jspa');">JIRA</div>
-    <div class="pan pan5">NULL</div>
+    <div class="pan pan4" onclick="window.open('http://jira.lab.tclclouds.com/secure/Dashboard.jsp');">JIRA</div>
+    <div class="pan pan5" onclick="window.open('https://mailsz.tct.tcl.com/owa');" >MAIL</div>
+    <div class="pan pan6" onclick="window.open('http://ep.tclcom.com');">EP</div>
 </div>
 </body>
 </html>
